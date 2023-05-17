@@ -18,6 +18,7 @@ namespace VeritabanıGörsel
 
         static SqlConnection con;
         static SqlDataAdapter da;
+        //static SqlDataAdapter da;
         static DataSet ds;
         string sorgu = "Select tbl_islem.islemİd,tbl_islem.pName,islemUrunStok,tbl_islem.islemTutar,tbl_islem.userName from tbl_islem inner join product_tbl on tbl_islem.pName=product_tbl.pName";
         public calisanRapor()
