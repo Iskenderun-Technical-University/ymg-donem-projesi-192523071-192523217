@@ -13,6 +13,7 @@ namespace VeritabanıDestekliGörselProgramlama
         static SqlConnection con;
         static SqlDataAdapter da;
         static DataSet ds;
+        //static DataSet ds;
         static SqlCommand cmd;
         static SqlDataReader dr;
         public static string dataConnectString = "Data Source=DESKTOP-JTEMF7K\\SQLEXPRESS;Initial Catalog=machine;Integrated Security=True";
