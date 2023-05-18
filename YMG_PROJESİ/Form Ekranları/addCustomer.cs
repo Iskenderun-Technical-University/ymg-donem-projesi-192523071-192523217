@@ -42,7 +42,7 @@ namespace VeritabanıGörsel
             cmd.Parameters.AddWithValue("@date", DateTime.Now.ToString());
             return cmd;
         }
-        void clearComponent()
+        private void clearComponent()
         {
             textBox1_userName.Clear();
             textBox2_surName.Clear();
